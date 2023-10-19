@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap');
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header
+{
+    background-color: rgb(137, 230, 199);
+    z-index: 540;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 0 10px;
+    top: 4%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(2, 12, 3);
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+  
+}
+nav li{
+    margin: 10px;
+    color: black;
+}
+a:link,a:visited,a:active{
+    text-decoration: none;
+    color: black;
+}
+
+ a:hover{
+
+    background-color: rgb(89, 141, 141);
+    color: rgb(142, 164, 189);
+    border-radius: 13px;
+    transition: 0.2s;
+ }
+ main{ /* NEw */
+    position: absolute;
+    width: 100%;
+}
+.opening{
+    background-image: linear-gradient( #2fd691 ,#ffff);
+    position: relative;
+    top: 28%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatars{
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+}
+
+.about p{
+
+    padding-left: 26px;
+}
+.about p:first-letter{
+    font-size: 50px;
+    padding-left: 26px;
+}
+#proj{
+    margin-top: 250px;
+}
+#proj h2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#proj .card{
+    margin: 20px;
+}
+
+#contact{
+    margin-top: 100px;
+    height: 500px;
+    width: 700px;
+}
+#contact h2{
+    margin-bottom: 20px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #469ed1;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    padding: 20;
+}
+footer h6{
+    margin: 20px;
+
+}
+ 
